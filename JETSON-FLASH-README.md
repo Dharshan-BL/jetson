@@ -23,13 +23,19 @@
 
    <img src="https://github.com/user-attachments/assets/25b7c953-8c96-45bc-8b4d-ba0f4a95f9d1" height="400" width="auto">
    
-4. Select the approporiate module and ensure that you uncheck the host machine on the setup and continue to the next step. (In the image below, the jetson already detects the board. If you see a message `could not detect a board`, this will fix it)
+3. Select the approporiate module and ensure that you uncheck the host machine on the setup and continue to the next step. (In the image below, the jetson already detects the board. If you see a message `could not detect a board`, this will fix it)
 
    <img src="https://github.com/user-attachments/assets/78641055-656c-4135-b765-ad5961a91d73" width="600" height="auto">
 
-5. Select the relevant components and the folder location for the image and continue to the next step.
-6. Set your username and password and click `Flash` to now flash the Jetson.
+4. Select the relevant components and the folder location for the image and continue to the next step.
+5. Set your username and password and click `Flash` to now flash the Jetson.
    
    <img src="https://github.com/user-attachments/assets/4db751ba-7477-4f3e-8edd-6ee53c3b0601" width="600" height="auto">
 
-7. Once it is flashed, the latest Linux OS must be available on your jetson (Plug in a monitor to verify!)
+6. Once it is flashed, the latest Linux OS must be available on your jetson (Plug in a monitor to verify!)
+7. Once the jetson reboots, hit install after entering the username and password you set in step 6.
+
+   <img src="https://github.com/user-attachments/assets/bc22ca9d-ffc1-40d6-8a73-dae7323b459b" width="600" height="auto">
+
+8. Once the installlation is done you are good to go!
+
