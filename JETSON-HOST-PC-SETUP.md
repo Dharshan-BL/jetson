@@ -40,6 +40,7 @@ network:
       gateway4: 192.168.7.101
       nameservers:
         addresses:
+          - 192.168.7.101
           - 8.8.8.8
 ```
 
@@ -65,3 +66,9 @@ network:
   sudo netfilter-persistent save
   sudo netfilter-persistent reload
   ```
+
+## 4. Check internet connectivity on `Jetson`
+```
+ping -c 4 ubuntu.com
+```
+If you are unable to ping it, try pinging the DNS `8.8.8.8`. If that works, check your DNS settings again! 
